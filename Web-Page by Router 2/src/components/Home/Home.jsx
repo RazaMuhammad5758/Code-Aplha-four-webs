@@ -1,5 +1,6 @@
 import React from 'react'
 import './Home.css'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -17,7 +18,9 @@ const Home = () => {
               <br />
               hard work gains success. Greatness will come
             </p>
-            <a href="" class="btn">Explore Now &#8594;</a>
+            <Link to="/products" className="btn">
+        Explore Now &#8594;
+            </Link>
           </div>
           <div class="col2">
             <img src="images/image1.png" alt="" />

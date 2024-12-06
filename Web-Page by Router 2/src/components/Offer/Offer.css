@@ -13,7 +13,7 @@ small{
     /* margin-top: 50px; */
 }
 
-.row{
+.offer_row{
     display: flex;
     align-items: center;
     flex-wrap: wrap;

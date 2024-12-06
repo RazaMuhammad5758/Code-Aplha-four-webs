@@ -6,7 +6,7 @@ const Offer = () => {
     <div>
       <div className="offer">
       <div className="small-container">
-        <div className="row">
+        <div className="offer_row">
           <div className="col2">
             <img src="/images/exclusive.png" className="offer-img" />
           </div>
